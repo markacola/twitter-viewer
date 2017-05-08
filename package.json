@@ -1,0 +1,29 @@
+{
+  "name": "twitter-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanBeddoeWebDev/twitter-viewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanBeddoeWebDev/twitter-viewer/issues"
+  },
+  "homepage": "https://github.com/NathanBeddoeWebDev/twitter-viewer#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "node-twitter-api": "^1.8.0",
+    "secret": "^1.0.2",
+    "twit": "^2.2.5",
+    "twitter": "^1.7.0"
+  }
+}

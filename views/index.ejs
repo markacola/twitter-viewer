@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quick Tweet</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script>
+            $(function() {
+                $("#sign-in-with-twitter").on("click", function(){
+                    window.location.href = "/request-token"
+                })
+            })
+        </script>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="header-primary">Post a tweet</h1>
+                <button id="sign-in-with-twitter">Sign in with Twitter</button>
+            </div>
+            
+        <form method="POST" action="/tweet">
+            <textarea placeholder="Enter your tweet here" class="form-control" id="txtComment" style="resize: none;" rows="4" cols="50" name="tweetName" maxlength="140"></textarea><br>
+            <button class="btn btn-primary">Tweet!</button>
+        </form>
+        </div>
+        
+        
+        
+    </body>
+</html>
