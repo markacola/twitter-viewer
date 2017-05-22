@@ -7,10 +7,10 @@ app.set('view enginge', 'ejs')
 app.use(bodyParser.urlencoded({ extended: true }));
 
 var T = new Twit({
-    consumer_key: 'cNWMkWAcLNP1qi4yy3JpoXDZU',
-    consumer_secret: '3f4NNkbAzqnZxm7mdJMyMIJo93M6NiToTOVNjrsBH2AzsNybDR',
-    access_token: '848367436109799424-ZMsGaZshJQc0QqKoqyUudIU7eDlpeQR',
-    access_token_secret: 'aLNAf7LoVfCDQZpn2e7yF6YaPXQEjFb2WDvXarwhMHanA'
+    consumer_key: '',
+    consumer_secret: '',
+    access_token: '',
+    access_token_secret: ''
 })
 
 app.get('/', function(req, res){
